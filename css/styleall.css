@@ -1,0 +1,532 @@
+@font-face {
+  font-family: abc;
+  src: url('../font/Amble-BoldItalic.ttf')
+}
+
+@font-face {
+  font-family: abcd;
+  src: url('../font/Amble-Regular.ttf')
+}
+
+@font-face {
+  font-family: abcde;
+  src: url('../font/Amble-LightCondensed.ttf')
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #fff;
+}
+
+/* header css start=========================================================== */
+
+.header {
+  font-family: abc;
+  background-image: url("../images/hd-bg.png");
+
+}
+
+.header-top {
+  padding-top: 10px;
+  border-bottom: 2px ridge #333;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h-logo {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+a:hover {
+  color: rgb(250, 226, 6);
+}
+
+.nav-wrap {
+  height: auto;
+  float: right;
+  width: 65%;
+  margin: 45px auto;
+}
+
+.group {
+  list-style: none;
+  /* float: right; */
+}
+
+.group li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.block {
+  margin-top: 10px;
+}
+
+.field {
+  float: right;
+  margin-bottom: 10px;
+}
+
+#search111 {
+  height: 25px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+#button111 {
+  padding: 6px 15px;
+  border: 2px solid #ca072b;
+  background-color: #ca072b;
+  color: white;
+}
+
+#button111:hover {
+  cursor: pointer;
+}
+
+/* header css end =============================================== */
+
+/* home page css ================================================ */
+
+.listview_1_of_3 {
+  display: inline-block;
+  width: 23%;
+  padding: 0 15px;
+  margin: 0% 0 0% 3%;
+}
+
+.listimg {
+  display: block;
+  float: left;
+  width: 30%;
+}
+
+.listimg_1_of_2 {
+  width: 100%;
+  height: 120px;
+}
+
+.list_1_of_2 {
+  width: 65%;
+}
+
+.text {
+  display: block;
+  float: left;
+  margin: 0% 0 7% 3.6%;
+}
+
+.data {
+  margin-bottom: 1px;
+  color: #989898;
+  font-size: 14px;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.text-top {
+  padding-top: 6px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.8em;
+  color: #888;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.listimg1 {
+  width: 75%;
+  float: left;
+  margin-right: 6%;
+  margin-bottom: 5%;
+}
+
+.listimg_1 {
+  width: 100%;
+  height: 250px;
+  color: #221d22;
+}
+
+.link4 {
+  font-weight: bold;
+  color: #e3480b;
+  display: inline-block;
+  margin-bottom: 4%;
+}
+
+.link4:HOVER {
+  color: blue;
+}
+
+.im {
+  width: 28%;
+}
+
+.text1 {
+  width: 56%;
+}
+
+.color2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+  line-height: 1.8em;
+  color: #1344b0;
+}
+
+/* home page css end ======================================================================== */
+
+/* movie page css start ======================================================================= */
+.col1 {
+  width: 22%;
+  /* height: 300px; */
+  padding: 1.5%;
+  display: block;
+  float: left;
+}
+
+.img {
+  width: 100%;
+  height: 360px;
+}
+
+/* movie page css end ======================================================================= */
+
+/* login page and registration page css start ================================================ */
+
+.content {
+  font-family: abcd;
+  padding: 20px 0;
+}
+
+.col {
+  margin-left: 33.3%;
+  width: 33%;
+  float: left;
+  padding: 0 15px;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 360px;
+}
+
+.panel-heading {
+  text-align: left;
+}
+
+.panel-heading {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.login-box-msg {
+  margin: 0 0 10px 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-control {
+  width: 69%;
+  height: 25px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 40px 6px 0;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: center right;
+
+}
+
+.form-control:focus{
+  outline: none;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  text-align: center;
+  opacity: .9;
+}
+
+.btn {
+  color: #fff;
+  background-color: #337ab7;
+  border: 2px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+#reg {
+  color: blue;
+}
+
+#reg:hover {
+  text-decoration: underline;
+}
+
+.rf:focus {
+  box-shadow: 1px 1px 5px 3px rgb(18 145 126);
+
+}
+
+/* movie timing  and booking=========================================================================================== */
+
+.span_1_of_2 {
+  width: 60%;
+  padding: 2%;
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 4%;
+  background: #f0f0f0;
+  padding: 8px;
+  font-family: abcde;
+}
+
+.images_3_of_2 {
+  width: 45%;
+  float: left;
+}
+
+.img1 {
+  width: 100%;
+  height: 450px;
+}
+
+.desc {
+  padding-left: 20px;
+  width: 370px;
+  float: left;
+}
+
+.p-link {
+  margin-bottom: 1px;
+  color: #989898;
+  font-size: 15px;
+}
+
+.watch_but {
+  position: absolute;
+  margin-top: 20px;
+  background-color: #3f7474;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.table {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #e2e0e0;
+  border-spacing: 0px;
+}
+
+.table thead tr th {
+  background-color: white;
+  border-bottom: 1px solid #e2e0e0;
+  border-right: 1px solid #e2e0e0;
+}
+
+.table tbody tr td {
+  height: 40px;
+  text-align: center;
+  border-top: 1px solid #e2e0e0;
+  border-right: 1px solid #e2e0e0;
+}
+
+.book {
+  display: inline-block;
+  width: 170px;
+  color: black;
+  border: 1px solid #e2e0e0;
+  padding: 7px;
+  border-radius: 15px;
+
+}
+
+.book:hover {
+  color: white;
+  background-color: #a79e9e;
+}
+
+/* ================== process booking ============================ */
+.control-label {
+  display: inline-block;
+  height: 25px;
+  font-family: abc;
+}
+
+.p1 {
+  padding: 6px 10px 6px 15px;
+  width: 92%;
+}
+
+.p:focus {
+  box-shadow: 1px 1px 5px 3px rgb(18 145 126);
+}
+
+.btn1{
+  width: 100%;
+}
+ .btn1:hover{
+background-color: #49637a;
+cursor: pointer;
+ }
+
+
+/* ================================= bank page ================================= */
+#mainContainer {
+  margin-top: 45px;
+  font-family: abcd;
+  margin-left: 28%;
+  width: 37%;
+}
+
+.row {
+  text-align: center;
+  font-size: 25px;
+  height: 65px;
+}
+
+.bor {
+  border: 1px solid #a79e9e;
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+.flo {
+  margin-top: 3px;
+  display: inline-block;
+}
+
+.mar {
+  margin-left: 110px;
+}
+
+.form-heading {
+  margin: 0px;
+  color: rgb(97 101 171);
+  font-size: 20px;
+}
+
+.formInputSection {
+  text-align: left;
+}
+
+.optPass {
+  height: 30px;
+  width: 100%;
+  float: left;
+}
+
+.btnn {
+  background-color: rgb(233 220 105);
+  height: 40px;
+  width: 150px;
+  margin-left: 35px;
+  font-size: 17px;
+  border: 1px solid rgb(66 64 43);
+}
+
+.otp {
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-left: 315px;
+  font-size: 18px;
+}
+
+.otp-send {
+  color: #221d22;
+}
+
+.otp-send:hover {
+  color: rgb(4, 106, 189);
+}
+
+.tryAgain {
+  text-decoration: underline;
+  margin-top: 20px;
+  color: #221d22;
+}
+
+.tryAgain:hover {
+  color: rgb(4, 106, 189);
+
+}
+
+.btns{
+  margin: 3% 0;
+}
+
+.btns a{
+  padding: 1% 2%;
+  border: 1px solid #e3160b;
+  background-color: #e3160b;
+  color: white;
+  border-radius: 10px;
+}
+
+/* ============================= footer page =============================================================================== */
+
+.footer {
+  background: #222;
+}
+
+.footer-top {
+  padding: 20px 0;
+}
+
+.col-1-4 {
+  font-family: abcd;
+  float: left;
+  width: 20%;
+  padding: 1.5%
+}
+
+.footer-nav li {
+  font-family: abc;
+  list-style-image: url(../images/f-icon.png);
+  margin: 0 0 5px 20px;
+}
+
+.txt {
+  color: #7a7474;
+}
+
+/* footer css end =============================================== */

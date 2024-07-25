@@ -1,0 +1,167 @@
+@font-face {
+    font-family: abc;
+    src: url('../font/Amble-LightCondensed.ttf')
+}
+
+@font-face {
+    font-family: abcd;
+    src: url('../font/Amble-Bold.ttf')
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/*.content {
+
+} */
+.content-left {
+    background-color: #222d32;
+    width: 21%;
+    height: 1220px;
+    float: left;
+}
+
+.logo {
+    text-align: center;
+    height: 15%;
+}
+
+.logo-img {
+    margin-top: 10px;
+    width: 55%;
+    height: 90%;
+}
+
+
+
+.content-index {
+    margin-top: 15px;
+    padding-left: 0;
+}
+
+.content-index ul {
+    margin-left: -40px;
+}
+
+.content-index ul li {
+    font-family: abc;
+    padding-top: 13px;
+    list-style: none;
+    height: 40px;
+}
+
+
+.material-symbols-outlined {
+    padding: 0 25px;
+    color: #b8c7ce;
+    margin-top: -5px;
+}
+
+a {
+    color: #b8c7ce;
+    font-size: 15px;
+    text-decoration: none;
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    text-indent: 75px;
+    margin-left: -75px;
+}
+
+ul li:hover {
+    background-color: #1c1f20;
+}
+
+li:hover>a,
+li:hover>.material-symbols-outlined {
+    color: rgb(38, 106, 233);
+}
+
+/* ================================================================================= */
+
+.cotainer {
+    width: 74.5%;
+    height: 1200px;
+    float: left;
+    padding: 10px 30px;
+    background-color: #ecf0f5;
+}
+
+.cotainer-right {
+    background-color: white;
+    border-top: 3px solid #d2d6de;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.from-group {
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.l1 {
+    font-family: abcd;
+}
+
+.input {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    width: 100%;
+    padding: 6px 0 4px 15px;
+    height: 25px;
+    font-size: 14px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+}
+
+.input:focus {
+    background-color: white;
+}
+
+.input:hover {
+    outline: none;
+}
+
+.in:focus {
+    box-shadow: 1px 1px 5px 3px rgb(18 145 126);
+
+}
+
+.input-btn {
+    background-color: #00a65a;
+    border: none;
+    height: 35px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.input-btn:hover {
+    background-color: #037944;
+}
+
+.table {
+    background-color: white;
+    text-align: left;
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    border-spacing: 0px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #e2e0e0;
+}
+
+.btns {
+    padding: 5% 10%;
+    border: 1px solid #c2332b;
+    background-color: #c2332b;
+    color: white;
+    border-radius: 10px;
+    margin: 0;
+    position: unset;
+}
